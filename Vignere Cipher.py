@@ -48,6 +48,9 @@ key_entry = tk.Entry(input_frame, font=input_font)
 key_entry.grid(row=1, column=1, padx=10, pady=10)
 
 #Define a function for button clicks
+def encrypt_message():
+    plaintext = plaintext_entry.get()
+    key = key_entry.get()
 
 #Button to encrypt the message
 
