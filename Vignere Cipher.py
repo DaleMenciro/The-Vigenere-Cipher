@@ -51,6 +51,11 @@ key_entry.grid(row=1, column=1, padx=10, pady=10)
 def encrypt_message():
     plaintext = plaintext_entry.get()
     key = key_entry.get()
+     # Encrypt the plaintext using the Vigenère cipher with the key
+    try:
+        ciphertext = vigenere_cipher(plaintext, key)
+        output_label.config(text="Ciphertext: " + ciphertext, fg="green")
+
 
 #Button to encrypt the message
 
