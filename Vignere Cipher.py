@@ -79,3 +79,4 @@ window.attributes("-fullscreen", True)
 window.attributes("-topmost", True)
 
 #Start the main event
+window.mainloop()
