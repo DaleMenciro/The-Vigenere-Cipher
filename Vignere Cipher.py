@@ -23,3 +23,7 @@ def vigenere_cipher(plaintext,key):
 window = tk.Tk()
 window.geometry("500x400")
 window.title("Vigenère Cipher")
+
+#Allocating the font styles
+title_font= ("Helvetica", 20, "bold")
+input_font= ("Helvetica", 12)
