@@ -58,11 +58,12 @@ def encrypt_message():
     except ValueError as e:
         output_label.config(text="Error: " + str(e), fg="red")
 
-
-
 #Button to encrypt the message
 
 #Create a label for the output ciphertext
+output_label = tk.Label(window, font=input_font)
+output_label.pack(pady=10)
+
 
 #Window background color and border
 
