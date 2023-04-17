@@ -31,3 +31,7 @@ input_font= ("Helvetica", 12)
 #Title label
 title_label = tk.Label(window, text="Vigenère Cipher", font=title_font)
 title_label.pack(pady=10)
+
+#Frame for the input fields
+input_frame = tk.Frame(window)
+input_frame.pack()
