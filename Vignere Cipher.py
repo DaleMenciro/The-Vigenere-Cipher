@@ -37,6 +37,10 @@ input_frame = tk.Frame(window)
 input_frame.pack()
 
 #Labels and entry fields for plaintext and key
+plaintext_label = tk.Label(input_frame, text="Plaintext:", font=input_font)
+plaintext_label.grid(row=0, column=0, padx=10, pady=10)
+plaintext_entry = tk.Entry(input_frame, font=input_font)
+plaintext_entry.grid(row=0, column=1, padx=10, pady=10)
 
 #Define a function for button clicks
 
