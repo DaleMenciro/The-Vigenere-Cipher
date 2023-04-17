@@ -59,11 +59,14 @@ def encrypt_message():
         output_label.config(text="Error: " + str(e), fg="red")
 
 #Button to encrypt the message
+encrypt_button = tk.Button(window, text="Encrypt", font=input_font, command=encrypt_message)
+encrypt_button.pack(pady=10)
 
 #Create a label for the output ciphertext
 output_label = tk.Label(window, font=input_font)
 output_label.pack(pady=10)
 
+# Create an exit button
 
 #Window background color and border
 
