@@ -70,7 +70,12 @@ output_label.pack(pady=10)
 exit_button = tk.Button(window, text="Exit", font=input_font, command=window.quit)
 exit_button.pack(pady=10)
 
-
 #Window background color and border
+window.configure(bg="lightblue")
+window.attributes("-alpha", 0.9)
+window.overrideredirect(True)
+window.overrideredirect(False)
+window.attributes("-fullscreen", True)
+window.attributes("-topmost", True)
 
 #Start the main event
