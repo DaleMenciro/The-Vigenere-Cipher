@@ -13,3 +13,4 @@ def vigenere_cipher(plaintext,key):
 
         #The ciphertext produced by encrypting plaintext using the Vigenère cipher with the given key.
         cipher_char= chr((ord(char) - ord('A') + shifting)  % 26 + ord ('A'))
+        ciphertext += cipher_char
