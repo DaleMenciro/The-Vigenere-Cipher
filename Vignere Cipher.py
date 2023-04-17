@@ -8,4 +8,6 @@ def vigenere_cipher(plaintext,key):
             raise ValueError("The Plaintext must be in all uppercase letters wit no spaces only")
         if not key[i % key_len].isalpha() or not key[i % key_len].isupper():
             raise ValueError("The Key must be in all uppercase letters with no spaces only")
+        #Calculates the shifting value
+        shifting= ord(key[i % key_len]) - ord('A')  
 #The ciphertext produced by encrypting plaintext using the Vigenère cipher with the given key.
