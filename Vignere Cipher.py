@@ -55,6 +55,9 @@ def encrypt_message():
     try:
         ciphertext = vigenere_cipher(plaintext, key)
         output_label.config(text="Ciphertext: " + ciphertext, fg="green")
+    except ValueError as e:
+        output_label.config(text="Error: " + str(e), fg="red")
+
 
 
 #Button to encrypt the message
