@@ -21,3 +21,5 @@ def vigenere_cipher(plaintext,key):
 
 #Creating GUI window with tkinter
 window = tk.Tk()
+window.geometry("500x400")
+window.title("Vigenère Cipher")
