@@ -35,3 +35,15 @@ title_label.pack(pady=10)
 #Frame for the input fields
 input_frame = tk.Frame(window)
 input_frame.pack()
+
+#Labels and entry fields for plaintext and key
+
+#Define a function for button clicks
+
+#Button to encrypt the message
+
+#Create a label for the output ciphertext
+
+#Window background color and border
+
+#Start the main event
