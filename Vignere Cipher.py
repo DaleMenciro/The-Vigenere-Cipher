@@ -6,4 +6,6 @@ def vigenere_cipher(plaintext,key):
         #plaintext-- error message will appear if it's not in all uppercase letters, no spaces
         if not char.isalpha() or not char.isupper():
             raise ValueError("The Plaintext must be in all uppercase letters wit no spaces only")
+        if not key[i % key_len].isalpha() or not key[i % key_len].isupper():
+            raise ValueError("The Key must be in all uppercase letters with no spaces only")
 #The ciphertext produced by encrypting plaintext using the Vigenère cipher with the given key.
