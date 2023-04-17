@@ -1,3 +1,5 @@
+import tkinter as tk
+
 #Encrypts plaintext using the Vigenère cipher with the given key.
 def vigenere_cipher(plaintext,key):
     ciphertext= ""
