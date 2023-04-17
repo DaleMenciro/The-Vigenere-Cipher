@@ -10,4 +10,6 @@ def vigenere_cipher(plaintext,key):
             raise ValueError("The Key must be in all uppercase letters with no spaces only")
         #Calculates the shifting value
         shifting= ord(key[i % key_len]) - ord('A')  
-#The ciphertext produced by encrypting plaintext using the Vigenère cipher with the given key.
+
+        #The ciphertext produced by encrypting plaintext using the Vigenère cipher with the given key.
+        cipher_char= chr((ord(char) - ord('A') + shifting)  % 26 + ord ('A'))
