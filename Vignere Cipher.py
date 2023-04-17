@@ -18,3 +18,6 @@ def vigenere_cipher(plaintext,key):
         ciphertext += cipher_char
 #The loop continues to iterate over each character in the plaintext, generating a new ciphertext character for each one.
 # Once the loop finished, final ciphertext string will be returned to the output of the function
+
+#Creating GUI window with tkinter
+window = tk.Tk()
