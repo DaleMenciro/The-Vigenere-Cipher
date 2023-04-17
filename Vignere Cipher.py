@@ -16,7 +16,7 @@ def vigenere_cipher(plaintext,key):
         #The ciphertext produced by encrypting plaintext using the Vigenère cipher with the given key.
         cipher_char= chr((ord(char) - ord('A') + shifting)  % 26 + ord ('A'))
         ciphertext += cipher_char
-        return ciphertext
+    return ciphertext
 
 #The loop continues to iterate over each character in the plaintext, generating a new ciphertext character for each one.
 # Once the loop finished, final ciphertext string will be returned to the output of the function
