@@ -42,6 +42,11 @@ plaintext_label.grid(row=0, column=0, padx=10, pady=10)
 plaintext_entry = tk.Entry(input_frame, font=input_font)
 plaintext_entry.grid(row=0, column=1, padx=10, pady=10)
 
+key_label = tk.Label(input_frame, text="Key:", font=input_font)
+key_label.grid(row=1, column=0, padx=10, pady=10)
+key_entry = tk.Entry(input_frame, font=input_font)
+key_entry.grid(row=1, column=1, padx=10, pady=10)
+
 #Define a function for button clicks
 
 #Button to encrypt the message
