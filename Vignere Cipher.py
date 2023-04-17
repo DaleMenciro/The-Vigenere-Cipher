@@ -67,6 +67,9 @@ output_label = tk.Label(window, font=input_font)
 output_label.pack(pady=10)
 
 # Create an exit button
+exit_button = tk.Button(window, text="Exit", font=input_font, command=window.quit)
+exit_button.pack(pady=10)
+
 
 #Window background color and border
 
